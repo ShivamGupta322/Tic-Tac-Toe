@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+  
+
+}
+
+body{
+    background-color: #548687;
+    text-align: center;
+   /* background-image: url(tic\ tac\ toe\ bg.png); */
+   background: rgb(22,112,213);
+    background: linear-gradient(342deg, rgba(22,112,213,1) 0%, rgba(11,221,233,1) 0%, rgba(27,56,194,1) 100%);
+
+    
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgb(0, 0, 0,0.4);
+    font-size: 8vmin;
+    color: #fdfdfd;
+    cursor: pointer;
+    background: rgb(63,250,251);
+    background: radial-gradient(circle, rgba(63,250,251,1) 0%, rgba(70,80,252,1) 100%);
+}
+
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg{
+    color: white;
+    font-size: 8vmin;
+    font-weight: 500;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    display:inline-block;
+    background: rgb(26,56,3);
+    background: linear-gradient(342deg, rgb(8, 117, 22) 0%, rgb(41, 244, 82) 33%, rgb(9, 142, 26) 68%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hide{
+    display: none;
+}
+
+h3{
+   color: rgb(225, 9, 9);
+}
